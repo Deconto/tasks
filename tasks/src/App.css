@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+table {
+  width: 200px;
+  border-collapse: collapse; /* Убираем двойные линии между ячейками */
+  padding: 3px;
+  border: 2px solid black;
+}
+td {
+  padding: 3px;
+  border: 2px solid black;
+}
+tr {
+  padding: 3px;
+  border: 2px solid black;
+}
