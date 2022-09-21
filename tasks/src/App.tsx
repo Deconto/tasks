@@ -1,21 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import {NewComponent} from "./components/NewComponent";
-import {Simulate} from "react-dom/test-utils";
-import contextMenu = Simulate.contextMenu;
+import {Youtube} from "./components/Youtube";
+// import {NewComponent} from "./components/NewComponent";
+// import {Simulate} from "react-dom/test-utils";
+// import contextMenu = Simulate.contextMenu;
 
-const cars = [
-    {manufacturer: 'BMW', model: 'm5cs'},
-    {manufacturer: 'Mercedes', model: 'e63s'},
-    {manufacturer: 'Audi', model: 'rs6'}
-]
+// const cars = [
+//     {manufacturer: 'BMW', model: 'm5cs'},
+//     {manufacturer: 'Mercedes', model: 'e63s'},
+//     {manufacturer: 'Audi', model: 'rs6'}
+// ]
 
 
 function App() {
     return (
         <div className="App">
-            <NewComponent topCars={cars}/>
+            {/*<NewComponent topCars={cars}/>*/}
+            {/*<Youtube/>*/}
         </div>
     );
 }
